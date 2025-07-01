@@ -4,7 +4,9 @@
   "description": "Practice",
   "main": "index.js",
   "scripts": {
-    "generate": "node src/scripts/generateProducts.js"
+    "generate": "node src/scripts/generateProducts.js",
+    "min-price": "node src/scripts/getProductsByMinPrice.js",
+    "get-total-price": "node src/scripts/getTotalPrice.js"
   },
   "type": "module",
   "keywords": [],
